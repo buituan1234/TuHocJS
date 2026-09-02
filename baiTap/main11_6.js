@@ -1,0 +1,14 @@
+let toan;
+let van;
+let anh;
+toan = Number(prompt("Nhập điểm toán: "));
+van = Number(prompt("Nhập điểm văn: "));
+anh = Number(prompt("Nhập điểm anh: "));
+let dtb = (toan + van + anh) / 3;
+console.log(toan);
+console.log(van);
+console.log(anh);
+console.log(typeof toan);
+console.log(typeof van);
+console.log(typeof anh);
+console.log("Điểm trung bình: " + dtb.toFixed(2));
