@@ -2,7 +2,7 @@
 
 let chieuCao = Number(prompt("nhập vào chiều cao(m):"));
 let canNang = Number(prompt("nhập vào cân nặng:"));
-let BMI = canNang / (Math.pow(chieuCao, 2));
+let BMI = canNang / (Math.pow(chieuCao, 2));//chiều cao mũ 2
 if (BMI < 15) {
     console.log("thân hình quá gầy");
 } else if (BMI >= 15 && BMI < 16) {

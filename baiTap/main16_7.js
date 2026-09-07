@@ -1,4 +1,6 @@
 //tìm 2 số biết tổng và hiệu 
+//x + y = Tong
+//x - y = hieu
 
 let Tong = Number(prompt("nhập tổng: "));
 let Hieu = Number(prompt("nhập hiệu: "));
