@@ -1,4 +1,5 @@
 // tìm các số hoàn hảo từ 1 đén 1000
+
 for (let i = 1; i <= 1000; i++) {
     let sumUoc = 0;
     for (let n = 1; n < i; n++) {
@@ -7,6 +8,6 @@ for (let i = 1; i <= 1000; i++) {
         }
     }
     if (sumUoc === i) {
-         console.log(i);
-     }
+        console.log("các số hoàn hảo trong phạm vi từ 1 đến 1000 là", i);
+    }
 }

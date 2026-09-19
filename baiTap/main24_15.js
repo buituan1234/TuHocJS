@@ -1,5 +1,5 @@
 // nhập vào số nguyên n
-// tính giai thừa số nguyên n: !n
+// tính giai thừa số nguyên n: n!
 // viết 2 cách dùng vòng lặp for và while
 
 // let giaithua = 1;

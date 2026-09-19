@@ -13,4 +13,4 @@ for (let i = 1; i <= n; i += 2) {
         tong += i;
     }
     console.log(i);
-} console.log(`tổng các số lẻ từ 1 đến ${n} (ngoại trừ 3) la ${tong}`);
+} console.log(`tổng các số lẻ từ 1 đến ${n} (ngoại trừ 3) là ${tong}`);
